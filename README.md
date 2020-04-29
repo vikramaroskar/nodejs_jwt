@@ -10,3 +10,5 @@ C:\dev\github\nodejs_jwt>node
 Since JWT is used, we can use same token on different servers, 3000 port and 4000 port.
 
 Missing, logout function to delete access and refreshtoken.
+
+Ideally, separate out auth server and application post server.
