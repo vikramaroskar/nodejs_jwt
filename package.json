@@ -1,0 +1,30 @@
+{
+  "name": "nodejs_jwt",
+  "version": "1.0.0",
+  "description": "nodejs_jwt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor server.js",
+    "start2": "supervisor server2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikramaroskar/nodejs_jwt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikramaroskar/nodejs_jwt/issues"
+  },
+  "homepage": "https://github.com/vikramaroskar/nodejs_jwt#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
